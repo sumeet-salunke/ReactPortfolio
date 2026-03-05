@@ -36,13 +36,13 @@ const ProjectModal = ({ project, onClose }) => {
             rel='noopener noreferrer'
             className="btn">See post</a>
         )}
-        {project.demoLink && (
+        {project.LiveLink && (
           <a
-            href={project.demlLink
+            href={project.LiveLink
             }
             target='_blank'
             rel='noopener noreferrer'
-            className="btn">Demo Link</a>
+            className="btn">Live</a>
         )}
       </div>
     </div>
