@@ -36,6 +36,14 @@ const ProjectModal = ({ project, onClose }) => {
             rel='noopener noreferrer'
             className="btn">See post</a>
         )}
+        {project.demoLink && (
+          <a
+            href={project.demlLink
+            }
+            target='_blank'
+            rel='noopener noreferrer'
+            className="btn">Demo Link</a>
+        )}
       </div>
     </div>
   );

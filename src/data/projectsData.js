@@ -2,6 +2,7 @@ import RemainderApp from '../assets/images/remainderApp.png';
 import PortfolioGen from '../assets/images/portfoliogen.png';
 import Assistant from '../assets/images/Assistant.png';
 import JobApplicationApp from '../assets/images/ApplicationTracker.png';
+import CampusCart from '../assets/images/CampusCart.png';
 const projectsData = [
   {
     id: 1,
@@ -72,7 +73,29 @@ const projectsData = [
     linkedin:
       "https://www.linkedin.com/posts/sumeet-salunke-052070325_learningwhilebuilding-fullstackdevelopment-ugcPost-7424842005446512640-9V1z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIOhz4BkQ5ELiUbUUaI0PEXZQ39ek5rl30"
   }
-
+  ,
+  {
+    id: 5,
+    title: "SumeetsCampusCart",
+    shortDesc: "Full-stack campus marketplace application",
+    tech: ["React", "Node.js", "Express", "MongoDB", "Session Auth"],
+    description:
+      "A full-stack marketplace web application inspired by platforms like Amazon/Myntra where users can browse products, add items to cart, and place orders. The project focuses on implementing session-based authentication, role-based access control, and deploying a production-ready MERN application.",
+    learnings: [
+      "Session-based authentication using cookies",
+      "Role-based access control (Admin/User)",
+      "Handling CORS and cross-domain cookies",
+      "Debugging production issues like 304 caching and headers",
+      "Deploying full-stack apps (Frontend → Netlify, Backend → Render)",
+      "Fixing React Router routing issues on Netlify using _redirects"
+    ],
+    demoLink: "https://sumeetscampuscart.netlify.app",
+    backendAPI: "https://campuscart-api.onrender.com/api/products",
+    githubFrontend: "https://github.com/Vidhan4444/campuscart-frontend",
+    githubBackend: "https://github.com/Vidhan4444/campuscart-backend",
+    image: CampusCart,
+    linkedin: "https://www.linkedin.com/posts/sumeet-salunke-052070325_mernstack-fullstackdevelopment-reactjs-share-7435351918018818048-ly29?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIOhz4BkQ5ELiUbUUaI0PEXZQ39ek5rl30"
+  }
 
 ];
 
