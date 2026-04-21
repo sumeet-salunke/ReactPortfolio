@@ -7,9 +7,39 @@ import MovieSearchApp from '../assets/images/movieApp.png';
 import WeatherApp from '../assets/images/WeatherApp.png';
 import MiniJira from "../assets/images/MiniJira.png";
 import ExpenseTracker from "../assets/images/ExpenseTracker.png";
+import ShopHub from "../assets/images/shopHub.png";
 const projectsData = [
   {
     id: 1,
+    title: "ShopHub - Full Stack E-commerce System",
+    shortDesc: "Full stack e-commerce application with authentication, cart, orders, and real-world backend features",
+    tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Axios", "GitHub Pages", "Render"],
+    description:
+      "ShopHub is a full stack e-commerce web application focused on real-world backend architecture and system design. Users can register, verify email, login, browse products, add items to cart, and place orders. The system includes admin functionality for managing products and handling orders. It implements authentication, cart management, order lifecycle, and integrates frontend with backend APIs deployed separately. The frontend is built with React and deployed on GitHub Pages, while the backend is built using Node.js and Express and deployed on Render with MongoDB Atlas.",
+    learnings: [
+      "Designing scalable backend architecture using MVC pattern",
+      "Implementing JWT authentication with access and refresh tokens",
+      "Building secure email verification and password reset flows",
+      "Designing cart system with stock validation and edge case handling",
+      "Implementing order lifecycle management (pending → confirmed → delivered → cancelled)",
+      "Using MongoDB transactions for maintaining data consistency",
+      "Understanding snapshotting of product data in orders",
+      "Handling CORS and cookies for cross-origin authentication",
+      "Connecting frontend and backend using Axios with proper token handling",
+      "Debugging real-world deployment issues (CORS, cookies, environment variables)",
+      "Deploying backend on Render and frontend on GitHub Pages",
+      "Managing production-level issues beyond local development"
+    ],
+    demoLink: "",
+    LiveLink: "https://sumeet-salunke.github.io/ShopHub/",
+    backendAPI: "https://shophub-backend-nb1e.onrender.com",
+    githubFrontend: "https://github.com/sumeet-salunke/ShopHub",
+    githubBackend: "https://github.com/sumeet-salunke/ShopHub",
+    image: ShopHub,
+    linkedin: "https://www.linkedin.com/posts/sumeet-salunke-052070325_fullstack-backenddevelopment-nodejs-activity-7451846079337357312-JCkv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIOhz4BkQ5ELiUbUUaI0PEXZQ39ek5rl30"
+  },
+  {
+    id: 2,
     title: "Mini Jira – Full Stack Task Management System",
     shortDesc: "Full stack project management application with authentication, projects, tasks, and dashboard analytics",
     tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Axios", "GitHub Pages", "Render"],
@@ -35,7 +65,7 @@ const projectsData = [
     linkedin: "https://www.linkedin.com/posts/sumeet-salunke-052070325_fullstack-react-nodejs-ugcPost-7445091428483076096-aghl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIOhz4BkQ5ELiUbUUaI0PEXZQ39ek5rl30"
   },
   {
-    id: 2,
+    id: 3,
     title: "SumeetsCampusCart",
     shortDesc: "Full-stack campus marketplace application",
     tech: ["React", "Node.js", "Express", "MongoDB", "Session Auth"],
@@ -58,7 +88,7 @@ const projectsData = [
     linkedin: "https://www.linkedin.com/posts/sumeet-salunke-052070325_mernstack-fullstackdevelopment-reactjs-share-7435351918018818048-ly29?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIOhz4BkQ5ELiUbUUaI0PEXZQ39ek5rl30"
   },
   {
-    id: 3,
+    id: 4,
     title: "Movie Search App",
     shortDesc: "JavaScript movie search application using a public API",
     tech: ["HTML", "CSS", "JavaScript", "Fetch API", "Open API"],
@@ -82,7 +112,7 @@ const projectsData = [
   }
   ,
   {
-    id: 4,
+    id: 5,
     title: "Weather App",
     shortDesc: "JavaScript weather application using Open-Meteo APIs",
     tech: ["HTML", "CSS", "JavaScript", "Fetch API", "Open-Meteo API"],
@@ -105,7 +135,7 @@ const projectsData = [
     linkedin: "https://www.linkedin.com/posts/sumeet-salunke-052070325_javascript-webdevelopment-frontenddevelopment-share-7440000244521684992--wlK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIOhz4BkQ5ELiUbUUaI0PEXZQ39ek5rl30"
   },
   {
-    id: 5,
+    id: 6,
     title: "Reminder App",
     shortDesc: "Email-based reminder application",
     tech: ["React", "Node.js", "MongoDB"],
@@ -121,7 +151,7 @@ const projectsData = [
     linkedin: 'https://www.linkedin.com/posts/sumeet-salunke-052070325_reactjs-fullstackdevelopment-webdevelopment-activity-7416822059336458240-XB0I?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFIOhz4BkQ5ELiUbUUaI0PEXZQ39ek5rl30'
   },
   {
-    id: 6,
+    id: 7,
     title: "Portfolio & Resume Generator",
     shortDesc: "Generate a portfolio and resume using predefined templates",
     tech: ["HTML", "CSS", "Node.js", "MongoDB"],
@@ -138,7 +168,7 @@ const projectsData = [
     linkedin: 'https://www.linkedin.com/posts/sumeet-salunke-052070325_webdevelopment-miniproject-frontend-activity-7404814559099785218-OEQK?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFIOhz4BkQ5ELiUbUUaI0PEXZQ39ek5rl30'
   }
   , {
-    id: 7,
+    id: 8,
     title: "Voice-Based Assistant",
     shortDesc: "Performs tasks based on user voice commands using Python",
     tech: ["Python", "SpeechRecognition", "pyttsx3"],
@@ -155,7 +185,7 @@ const projectsData = [
     linkedin: 'https://www.linkedin.com/posts/sumeet-salunke-052070325_python-automation-learningbydoing-activity-7408743975978799104-L3nd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFIOhz4BkQ5ELiUbUUaI0PEXZQ39ek5rl30'
   },
   {
-    id: 8,
+    id: 9,
     title: "Job Application Management App",
     shortDesc: "Secure CRUD app for managing job applications",
     tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
@@ -175,7 +205,7 @@ const projectsData = [
   }
   ,
   {
-    id: 9,
+    id: 10,
     title: "Expense Tracker",
     shortDesc: "Expense tracking web application to manage income and expenses",
     tech: ["HTML", "CSS", "JavaScript", "LocalStorage"],
